@@ -1,6 +1,5 @@
 class LinebotsController < ApplicationController
   require 'line/bot'
-  require 'amazon/ecs'
 
   # callbackアクションのCSRFトークン認証を無効
   protect_from_forgery :except => [:callback]
